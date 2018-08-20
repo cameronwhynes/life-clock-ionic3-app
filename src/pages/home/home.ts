@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { Observable,of, from } from 'rxjs';
-import { RelativeTimePipe } from '../../pipes/relative-time/relative-time';
+import { Observable } from 'rxjs';
 
 // Epochs (in milliseconds, 1000ms=1s)
 const epochs: any = {
@@ -29,7 +28,6 @@ export class HomePage {
   days: number = 0;
   months: number = 0;
   years: number = 0;
-  message: string = '';
 
   constructor(public navCtrl: NavController) {
 

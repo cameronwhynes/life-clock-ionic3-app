@@ -1,0 +1,7 @@
+{
+  "name": "life-clock-ionic3-app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

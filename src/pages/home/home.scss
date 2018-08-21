@@ -2,11 +2,31 @@ page-home {
 
     .center-screen {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        min-height: 100vh;
+        //flex-direction: column;
+        //justify-content: center;
+        // align-items: center;
+        padding: 45vh 16vw;
+        text-align: left;
+        position: 50%;
+        background-color: rgba(0, 0, 0, 1.0);
+        //min-height: 100vh;
+        color: rgba(86, 0, 0, 0.5);
+        font-family: "square_sans_serif_7", "Source Sans Pro", "Arial", sans-serif;
+        font-size: 5vw;
+        text-shadow: 0px 0px 100px #560000;
+        letter-spacing: 0.1em;
+
+    }
+
+    .blur {
+    -webkit-animation: blur 10s linear forwards;
+    -moz-animation: blur 10s linear forwards;
+    -ms-animation: blur 10s linear forwards;
+    -o-animation: blur 10s linear forwards;
+    animation: blur 10s linear forwards;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
     }
 
 

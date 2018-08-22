@@ -28,6 +28,8 @@ export class HomePage {
   days: number = 0;
   months: number = 0;
   years: number = 0;
+  timerSubscription: any;
+
 
   constructor(public navCtrl: NavController) {
 
